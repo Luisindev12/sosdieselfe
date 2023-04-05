@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Sistema SOS</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
+
 <body>
     <main role="main" class="container my-auto">
         <div class="row">
@@ -15,28 +17,30 @@
                 <br>
                 <br>
                 <h2 class="text-center">Bienvenido Usuario</h2>
+                <br>
                 <form>
                     <div class="form-group">
                         <label for="correo">Correo</label>
-                        <input id="correo" name="correo"
-                            class="form-control" type="email"
+                        <input id="correo" name="correo" class="form-control" type="email"
                             placeholder="Correo electrónico">
                     </div>
+                    <br>
                     <div class="form-group">
                         <label for="palabraSecreta">Contraseña</label>
-                        <input id="palabraSecreta" name="palabraSecreta"
-                            class="form-control" type="password"
+                        <input id="palabraSecreta" name="palabraSecreta" class="form-control" type="password"
                             placeholder="Contraseña">
                     </div>
                     <br>
                     <br>
                     <div class="container text-center">
-                    <button type="submit" class="btn bg-danger mb-2 text-light">
-                        Entrar
-                    </button>
+                        <button type="submit" class="btn bg-danger mb-2 text-light">
+                            Entrar
+                        </button>
                     </div>
                     <br>
-                    <a href="#">Contraseña olvidada</a>
+                    <div class="container text-center">
+                        <a href="#">Contraseña olvidada</a>
+                    </div>
                 </form>
             </div>
         </div>
@@ -45,7 +49,8 @@
 
 
 
-        <!-- importamos bootstrap al proyecto (JS) -->
-        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- importamos bootstrap al proyecto (JS) -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
