@@ -1,0 +1,9 @@
+@font-face {
+    font-family: bebasos;
+    src: url(./assets/fonts/BebasNeue-Regular.ttf);
+}
+
+.princitxt{
+    font-family: bebasos;
+    color: #C1272D;
+}
